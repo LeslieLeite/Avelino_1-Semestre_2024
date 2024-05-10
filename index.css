@@ -1,0 +1,181 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.header {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+}
+
+.header_logo {
+    width: 10em;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+
+#hamburguer {
+    background-color: #00A6F0;
+    color: #1878C2;
+    display: block;
+    text-align: center;
+    padding: .3em;
+    cursor: pointer;
+    font-size: 2em;
+
+}
+
+.header_nav {  
+    display: none;
+}
+
+.header_nav.show {
+    display: block;
+}
+
+ul {
+    margin: 0;
+}
+
+.header_nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 1em;
+}
+.header_nav a {
+    color: #2115ED;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    font-weight: bold;
+}
+.text-center {
+    text-transform: uppercase;
+       
+}
+
+.text-center a {
+    text-decoration: none;
+    color: #2115ED;
+}
+
+.sobre {
+    background-color: #CBE8BD;
+    
+}
+
+.sobre img {
+    width: 18em;
+         
+}
+
+.python {
+    background-color:#B1D2EB ;
+}
+
+#python p{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#2115ED;
+    
+}
+
+.scratch {
+    background-color:#FAC87F ;
+    padding: 1em;
+}
+
+ #scratch  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    background-color:color-mix(in srgb, #196BF0,white    30%);
+    padding: .8em;
+    text-align: center;
+
+}
+
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.tamanho  {
+    width: 2.5em; 
+  }
+ 
+.texto_footer{
+      margin: 0;
+      padding-top: .8rem;
+      color:#2115ED;
+      font-size: 1.5em;
+    
+  }
+
+
+
+@media screen and (min-width: 36em) {/* maior que 576px*/
+    #hamburguer {
+        display: none;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        
+       
+    }
+
+    .header_nav {
+        display: block;
+
+    }
+    .header_nav ul {
+        margin-right: 2em;
+        font-size: 1em;
+
+    }
+    .header_nav li {
+        display: inline-block;
+    }
+
+    .header_logo {
+        margin-left: 5em;
+    }
+
+    .carousel-item {
+        width: 35em;
+        margin-left: 25em;
+     }
+
+     .carousel-caption p {
+        font-family: 'Times New Roman', Times,serif;
+        font-size: 3em;
+        text-transform: uppercase;
+        font-weight: bold;
+    
+    }
+     .footer_nav {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.5em;
+    }
+   
+}
