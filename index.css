@@ -49,11 +49,17 @@ ul {
     font-size: 1em;
 }
 .header_nav a {
-    color: #2115ED;
+    color: #3473A3;
     text-decoration: none;
     display: block;
     padding: 1em;
     font-weight: bold;
+}
+
+.header_nav a:hover{
+    background-color: #F2A71B;
+    color: white;
+    border-radius: 5px;
 }
 .text-center {
     text-transform: uppercase;
@@ -85,6 +91,11 @@ ul {
     font-weight: bold;
     color:#2115ED;
     
+}
+
+#python img {
+    height: 500px;
+    width: 400px;
 }
 
 .scratch {
