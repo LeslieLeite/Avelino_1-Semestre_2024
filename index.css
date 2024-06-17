@@ -184,10 +184,7 @@ footer {
     
     }
 
-    #python img {
-    height: 500px;
-    width: 400px;
-}
+  
      .footer_nav {
         flex-direction: row;
         justify-content: center;
