@@ -99,8 +99,8 @@ ul {
 }
 
 .scratch {
-    background-color:#F2BB16;
-    padding: 1em;
+     background-color:color-mix(in srgb, #F2BB16,white 40%);
+     padding: 1em;
 }
 
  #scratch  p {
