@@ -93,10 +93,7 @@ ul {
     
 }
 
-#python img {
-    height: 500px;
-    width: 450px;
-}
+
 
 .scratch {
      background-color:color-mix(in srgb, #F2BB16,white 40%);
@@ -170,6 +167,11 @@ footer {
     .header_logo {
         margin-left: 5em;
     }
+
+    #python img {
+    height: 500px;
+    width: 400px;
+  }
 
     .carousel-item {
         width: 35em;
