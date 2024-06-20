@@ -170,9 +170,9 @@ footer {
     }
 
    
-    .carousel-item {
+    .carousel-item  img{
         width: 35em;
-        margin-left: 20em;
+        margin-left: 30em;
      }
 
      .carousel-caption p {
